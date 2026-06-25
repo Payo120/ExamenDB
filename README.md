@@ -1,3 +1,5 @@
+```text
+```mermaid
 erDiagram
     CLIENTES ||--o{ CONTRATOS : "tiene (1:N)"
     CONTRATOS ||--o{ PROYECTOS : "origina (1:N)"
